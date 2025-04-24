@@ -1,0 +1,28 @@
+/* Inherits styles from PlayerForm.css */
+
+.delete-button {
+  background: #f0f0f3;
+  color: #ff416c;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #d1d1d4, -5px -5px 10px #ffffff;
+  border: none;
+  font-weight: bold;
+  padding: 12px 25px;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.delete-button:hover {
+  background: linear-gradient(135deg, #ff4b2b 0%, #ff416c 100%);
+  transform: translateY(-3px);
+  box-shadow: 0 7px 14px rgba(255, 75, 43, 0.3), 0 3px 6px rgba(255, 75, 43, 0.2);
+  background: #f8f8f8;
+  box-shadow: 3px 3px 6px #d1d1d4, -3px -3px 6px #ffffff;
+  color: #ff4b2b;
+}
+
+.delete-button:active {
+  transform: translateY(1px);
+  box-shadow: inset 3px 3px 6px #d1d1d4, inset -3px -3px 6px #ffffff;
+}

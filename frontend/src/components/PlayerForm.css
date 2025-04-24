@@ -1,0 +1,89 @@
+.form-container {
+  background-color: #f0f0f3;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 20px #d1d1d4, -10px -10px 20px #ffffff;
+  flex: 1;
+  min-width: 300px;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  height: auto;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container .form-group {
+  margin-bottom: 15px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #495057;
+  transition: color 0.3s ease;
+}
+
+.form-group:hover label {
+  color: #2575fc;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  background-color: #f0f0f3;
+  box-shadow: inset 3px 3px 6px #d1d1d4, inset -3px -3px 6px #ffffff;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  outline: none;
+  box-shadow: inset 4px 4px 8px #d1d1d4, inset -4px -4px 8px #ffffff;
+}
+
+.form-group input:hover,
+.form-group select:hover {
+  box-shadow: inset 2px 2px 4px #d1d1d4, inset -2px -2px 4px #ffffff;
+}
+
+button {
+  background: #f0f0f3;
+  color: #2575fc;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 5px 5px 10px #d1d1d4, -5px -5px 10px #ffffff;
+}
+
+button:hover {
+  transform: translateY(-3px);
+  box-shadow: 3px 3px 6px #d1d1d4, -3px -3px 6px #ffffff;
+  color: #6a11cb;
+}
+
+button:active {
+  transform: translateY(1px);
+  box-shadow: inset 3px 3px 6px #d1d1d4, inset -3px -3px 6px #ffffff;
+}

@@ -1,0 +1,67 @@
+/* Inherit base styles from PlayerForm.css */
+.search-container {
+  min-height: 300px;
+}
+
+.player-details {
+  margin-top: 25px;
+  text-align: left;
+}
+
+.player-details h4 {
+  color: #333;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.detail-card {
+  background-color: #f0f0f3;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: inset 3px 3px 6px #d1d1d4, inset -3px -3px 6px #ffffff;
+}
+
+.detail-item {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+
+.detail-label {
+  font-weight: 600;
+  color: #495057;
+}
+
+.detail-value {
+  font-weight: 500;
+  color: #2575fc;
+}
+
+.not-found-message {
+  margin-top: 25px;
+  padding: 15px;
+  background-color: #f0f0f3;
+  color: #d32f2f;
+  border-radius: 10px;
+  box-shadow: inset 3px 3px 6px #d1d1d4, inset -3px -3px 6px #ffffff;
+  font-style: italic;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.clear-button {
+  background: #f0f0f3;
+  color: #ff416c;
+}
+
+.clear-button:hover {
+  color: #ff4b2b;
+}
